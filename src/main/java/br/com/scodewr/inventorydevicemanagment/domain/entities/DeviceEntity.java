@@ -1,9 +1,16 @@
 package br.com.scodewr.inventorydevicemanagment.domain.entities;
 
-import br.com.scodewr.inventorydevicemanagment.application.ports.in.UseCaseHandler;
-import lombok.Getter;
+import lombok.Builder;
 
-@Getter
-public abstract class DeviceEntity {
-    protected UseCaseHandler<?> handler;
-}
+import java.util.Date;
+
+@Builder
+public record DeviceEntity(
+        Integer deviceId,
+        Integer deviceModelId,
+        String deviceModelName,
+        Integer deviceCategoryId,
+        String deviceCategoryName,
+        Date created,
+        Date lastUpdate
+) {}
