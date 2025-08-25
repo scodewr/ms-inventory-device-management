@@ -1,6 +1,6 @@
 # ms-inventory-device-management
 
-Microsserviço para gerenciamento de dispositivos de inventário, com ênfase em desacoplamento via Arquitetura Hexagonal e orquestração de regras através do padrão Chain of Responsibility.
+Microsserviço para gerenciamento de inventário de dispositivos, com ênfase em desacoplamento via Arquitetura Hexagonal e orquestração de regras através do padrão Chain of Responsibility.
 
 ## Visão Geral
 
